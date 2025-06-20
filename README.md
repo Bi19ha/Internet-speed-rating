@@ -15,8 +15,7 @@ string checkSpeed(int speedMbps) {
 	else if (speedMbps <=50) {
 		return "Fast";
 	}
-	else if (speedMbps >=50) {
-		return"Very Fast";
+	else {return "Very Fast";
 	}
 }
 
